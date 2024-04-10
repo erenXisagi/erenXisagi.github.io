@@ -1,0 +1,30 @@
+@media (max-width: 768px) {
+    .col {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .col {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
+  /* Responsive Typography */
+  html {
+    font-size: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    html {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    html {
+      font-size: 12px;
+    }
+  }

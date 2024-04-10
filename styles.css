@@ -1,0 +1,176 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+.secondpage {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('/subtle-pink-pink-hand-drawn-doodle-roses-seamless-pattern-background_658402-342.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    background-color: rgba(
+        255,
+        255,
+        255,
+        0
+    ); /* Semi-transparent white background for content */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+}
+
+.know-more-btn {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s ease;
+    font-family: Poppins;
+}
+
+.know-more-btn:hover {
+    background-color: #ff6b8f; /* Lighter pink on hover */
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0); /* Pink footer */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+.firstpage {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(
+        circle,
+        rgba(238, 174, 202, 1) 0%,
+        rgba(148, 187, 233, 1) 100%
+    );
+}
+
+p {
+    font-family: Poppins;
+}
+#meet {
+    outline: 0;
+    grid-gap: 8px;
+    align-items: center;
+    background-color: #ff90e8;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-flex;
+    flex-shrink: 0;
+    font-size: 16px;
+    gap: 8px;
+    justify-content: center;
+}
+
+.centerimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nextpage {
+    font-family: Poppins;
+    color: #fff;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+    /* Apply these styles when the viewport is 768px or larger */
+    .button {
+        width: auto; /* Auto width on desktop */
+    }
+}
+
+.button {
+    background-color: #c74cb5;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px 32px;
+    transition-duration: 0.4s;
+    width: 100%; /* Full width on mobile */
+    border-radius: 12px;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4caf50;
+}
+
+/* Add transition to the entire page */
+* {
+    animation: 1s linear 0s 1 slideInLeft;
+}
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateY(-100%);
+    }
+    20% {
+        transform: translateY(-70%);
+    }
+    40% {
+        transform: translateY(-45%);
+    }
+    60% {
+        transform: translateY(-25%);
+    }
+    80% {
+        transform: translateY(-10%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
